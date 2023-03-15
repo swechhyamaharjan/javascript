@@ -28,3 +28,12 @@
 //     return area;
 // }
 // console.log("The area of 4 walls is" ,(fourWalls(2, 3, 4)))
+
+//To display total surface area and volume of cuboid
+
+// function cuboid(l, w, h){
+//     let totalsurfacearea = 2 * (l*w + w*h + h*l);
+//     let volume = l * w * h;
+//     return totalsurfacearea + " and " + volume;
+// }
+// console.log("The TSA and volume of cuboid is" ,cuboid(2, 3, 4))
