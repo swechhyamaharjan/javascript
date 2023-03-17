@@ -95,3 +95,34 @@
 //     return potentialEnergy;
 // }
 // console.log("The potential energy is" ,energy(2, 3))
+
+//print the sum of n natural numbers
+// function numbers(n){
+//     var sum = 0;
+//     for (var i=1; i<=n; i++){
+//         sum += i;
+//     }
+//     return sum;
+// }
+// console.log(numbers(5));
+
+//print the sum of square of first n natural numbers
+// function numbers(n){
+//     var sum = 0;
+//     for(var i=1; i<=n; i++){
+//         sum += i * i;
+//     }
+//     return sum;
+// }
+// console.log(numbers(5));
+
+function passOrfail(english, chemistry, biology, physics){
+    var totalMarks = english + chemistry + biology + physics;
+    if(totalMarks >= 40){
+        return "You're pass"
+    }
+    else{
+        return "You're fail"
+    }
+}
+console.log(passOrfail(50, 30, 20, 56));
